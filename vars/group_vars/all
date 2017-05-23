@@ -1,0 +1,9 @@
+---
+# Set Variables for EC2 Instance
+ec2:
+   region: us-east-2
+   image: ami-895b7fec
+   instance_type: t2.nano
+   public_ip: yes
+   tags:
+      Name: EC2Ansible

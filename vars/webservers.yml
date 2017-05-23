@@ -1,0 +1,5 @@
+---
+ec2_security_group: ec2_secure
+ec2_instance_type: t2.nano
+ec2_image: 'ami-0b33d91d'
+ec2_region: 'us-east-1'

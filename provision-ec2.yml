@@ -1,0 +1,10 @@
+---
+ - hosts: localhost
+   connection: local
+   gather_facts: false
+
+   pre_tasks:
+    - include_vars: vars/{{ type }}.yml
+
+   roles:
+    - ec2
